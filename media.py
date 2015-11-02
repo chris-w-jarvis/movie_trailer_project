@@ -1,10 +1,10 @@
 import webbrowser
 class Movie():
 	'''allows movie information to be stored for each movie'''
-	def __init__(self, movie_title, box_art_url, youtube_trailer_link):
+	def __init__(self, movie_title, poster_image_url, trailer_youtube_url):
 		self.title = movie_title
-		self.art = box_art_url
-		self.trailer = youtube_trailer_link
+		self.poster_image_url = poster_image_url
+		self.trailer_youtube_url = trailer_youtube_url
 
 	def open_trailer():
 		webbrowser.open(self.trailer)
