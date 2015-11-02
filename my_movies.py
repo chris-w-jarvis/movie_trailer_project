@@ -1,6 +1,9 @@
 import media
 import fresh_tomatoes
 
+#this is where all my movies and their information is stored, using the Movie class
+#structure from the media.py file
+
 blood_diamond = media.Movie('Blood Diamond',
 	'https://upload.wikimedia.org/wikipedia/en/5/5a/Blooddiamondposter.jpg',
 	'https://youtu.be/yknIZsvQjG4')
@@ -20,7 +23,11 @@ casino_royale = media.Movie('Casino Royale',
 	'https://upload.wikimedia.org/wikipedia/en/1/15/Casino_Royale_2_-_UK_cinema_poster.jpg',
 	'https://youtu.be/fl5WHj0bZ2Q')
 
+#put movies in list to use with fresh tomatoes method
+
 movies_list = [blood_diamond,interstellar,nacho_libre,man_on_fire,act_of_killing,casino_royale]
+
+#create website using fresh tomatoes module and my list of movies
 
 fresh_tomatoes.open_movies_page(movies_list)
 
