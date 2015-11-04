@@ -2,6 +2,14 @@ import webbrowser
 import os
 import re
 
+'''so basically how this works is that the create_movie_tiles_content method inputs your values
+for trailers and images into the movie_tile_content html appending this html section for each
+movie with the for loop. This value is returned and the open_movies_page method creates a new html
+file called fresh_tomatoes and then uses the .format method again to add the movie tiles content
+result into the the main_page_content html. Then it adds this result to the main_page_head with 
+all the needed html stuff and then it opens that in the browser
+
+Eventually going to write a new version of this that has a few different kinds of media (books, tv) '''
 
 # Styles and scripting for the page
 main_page_head = '''
@@ -107,7 +115,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Movies, TV Shows, and Books I like</a>
           </div>
         </div>
       </div>
