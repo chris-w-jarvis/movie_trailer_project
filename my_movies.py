@@ -5,32 +5,32 @@ import fresh_tomatoes
 # class structure from the media.py file
 
 blood_diamond = media.Movie(
-        'Blood Diamond',
+    'Blood Diamond',
 	'https://upload.wikimedia.org/wikipedia/en/5/5a/Blooddiamondposter.jpg',
 	'https://youtu.be/yknIZsvQjG4',
 	'2006')
 interstellar = media.Movie(
-        'Interstellar',
+    'Interstellar',
 	'https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg', #noqa
 	'https://youtu.be/2LqzF5WauAw',
 	'2014')
 nacho_libre = media.Movie(
-        'Nacho Libre',
+    'Nacho Libre',
 	'https://upload.wikimedia.org/wikipedia/en/3/35/Nachopost.jpg',
 	'https://youtu.be/ElVSw6xpQ70',
 	'2006')
 man_on_fire = media.Movie(
-        'Man on Fire',
+    'Man on Fire',
 	'https://upload.wikimedia.org/wikipedia/en/e/e8/Man_on_fireposter.jpg',
 	'https://youtube/g4kLizDXLY0',
 	'2004')
 act_of_killing = media.Movie(
-        'The Act of Killing',
+    'The Act of Killing',
 	'https://upload.wikimedia.org/wikipedia/en/c/ca/The_Act_of_Killing_%282012_film%29.jpg', #noqa
 	'https://youtu.be/SD5oMxbMcHM',
 	'2013')
 casino_royale = media.Movie(
-        'Casino Royale',
+    'Casino Royale',
 	'https://upload.wikimedia.org/wikipedia/en/1/15/Casino_Royale_2_-_UK_cinema_poster.jpg', #noqa
 	'https://youtu.be/fl5WHj0bZ2Q',
 	'2006')
